@@ -55,7 +55,7 @@
    C:\esptool
    ```
 3. Распаковать скачанный архив **esptool** в созданную папку.
-4. [Скачайть готовую прошивку](https://github.com/RobCoMeerkat/Field-Terminal-Mk.II/releases/download/test/RobCoFieldTerminal_MkII_V1.5.0_FULL_FACTORY_16MB.bin) и поместить файл `.bin` в ту же папку, рядом с `esptool.exe`.
+4. [Скачайть готовую прошивку](https://github.com/RobCoMeerkat/Field-Terminal-Mk.II/releases/download/v1.5.1/RobCoFieldTerminal_MkII_V1.5.1_FULL_FACTORY_16MB.bin) и поместить файл `.bin` в ту же папку, рядом с `esptool.exe`.
 5. Подключить плату к компьютеру через **USB-порт непосредственно на самой плате**.
 
 ---
@@ -121,10 +121,10 @@ Flash memory erased successfully in XX seconds.
 Выполнить команду, заменив:
 
 * `COM9` — на COM-порт вашего устройства;
-* `RobCoFieldTerminal_MkII_V1.5.0_FULL_FACTORY_16MB.bin` — на фактическое имя файла прошивки, если оно отличается.
+* `RobCoFieldTerminal_MkII_V1.5.1_FULL_FACTORY_16MB.bin` — на фактическое имя файла прошивки, если оно отличается.
 
 ```cmd
-esptool --chip esp32s3 --port COM9 --baud 230400 write-flash 0x0 RobCoFieldTerminal_MkII_V1.5.0_FULL_FACTORY_16MB.bin
+esptool --chip esp32s3 --port COM9 --baud 230400 write-flash 0x0 RobCoFieldTerminal_MkII_V1.5.1_FULL_FACTORY_16MB.bin
 ```
 
 Дождаться полного завершения процесса.
