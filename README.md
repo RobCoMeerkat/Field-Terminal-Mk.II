@@ -1,6 +1,6 @@
 # RobCo Field Terminal MkII
 
-![](https://github.com/RobCoMeerkat/Field-Terminal-Mk.II/blob/main/img0.png)
+![](https://github.com/RobCoMeerkat/Field-Terminal-Mk.II/blob/main/FieldTerminalMkII.gif)
 
 > [!NOTE]
 >
